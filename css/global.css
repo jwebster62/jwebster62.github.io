@@ -79,8 +79,8 @@ button {
     }
 }
 
-@media (min-width: 1600) {
+@media (min-width: 1200) {
     body {
-        max-width: 1500px;
+        max-width: 1150px;
     }
 }
