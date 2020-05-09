@@ -1,6 +1,8 @@
 :root {
     --base-root: 16px;
-    --main-bg: gray;
+    --ratio: 1.25;
+    --base-rem: 1rem;
+    --size-scale-1: calc(var(--base-rem)* var(--ratio)) --main-bg: gray;
     --green: rgb(3, 63, 3);
     --black: rgb(0, 0, 0);
     --white: rgba(255, 255, 255, 0.897);
@@ -10,4 +12,12 @@ body {
     background-color: var(--main-bg);
     color: var(--white);
     font-size: var(--base-root);
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
