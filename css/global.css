@@ -27,13 +27,17 @@ h3 {
 }
 
 h1 {
-    font-size: var(--size-scale-3);
+    font-size: var(--size-scale-4);
 }
 
 h2 {
-    font: var(--size-scale-2);
+    font: var(--size-scale-3);
 }
 
 H3 {
+    font-size: var(--size-scale-2);
+}
+
+p {
     font-size: var(--size-scale-1);
 }
