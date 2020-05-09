@@ -1,0 +1,7 @@
+:root {
+    --base-root: 16px;
+    --main-bg: gray;
+    --green: rgb(3, 63, 3);
+    --black: rgb(0, 0, 0);
+    --white: rgba(255, 255, 255, 0.897);
+}
