@@ -1,0 +1,7 @@
+"header"
+"nav"
+"logo"
+"nav-links"
+"highlight"
+"highlighted-posts"
+"recent-posts"
