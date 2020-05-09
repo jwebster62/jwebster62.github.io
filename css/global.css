@@ -41,3 +41,17 @@ H3 {
 p {
     font-size: var(--size-scale-1);
 }
+
+img {
+    max-width: 100%;
+}
+
+a {
+    background-color: transparent;
+    color: var(--white);
+    text-decoration: none;
+}
+
+figure {
+    margin: 0;
+}
