@@ -1,3 +1,5 @@
+INDEX.HTML LIST
+
 "header"
 "nav"
 "logo"
@@ -5,3 +7,7 @@
 "highlight"
 "highlighted-posts"
 "recent-posts"
+"posts"
+"post-info"
+"post-date"
+"post-author"
