@@ -58,4 +58,29 @@ figure {
 
 blockquote {
     color: var(--white);
+    font-size: var(--size-scale-1);
+    font-style: italic;
+}
+
+button {
+    cursor: pointer;
+    cursor: auto;
+}
+
+@media (min-width: 720px) {
+    body {
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 1024) {
+    body {
+        max-width: 990px;
+    }
+}
+
+@media (min-width: 1600) {
+    body {
+        max-width: 1500px;
+    }
 }
