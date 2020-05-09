@@ -23,3 +23,9 @@ INDEX.HTML LIST
 "email-box"
 
 BLOG.HTML LIST
+"blog-post"
+"post-title"
+
+ABOUT.HTML LIST
+"about-me"
+"about-me-table"
