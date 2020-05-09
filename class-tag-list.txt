@@ -1,12 +1,13 @@
 Tag list w/ settings I want to change
 
-Shared List
+SHARED LIST
 
 "header"
 "nav"
 "logo"
 "nav-links"
-
+"footer"
+"social"
 
 INDEX.HTML LIST
 
@@ -17,3 +18,8 @@ INDEX.HTML LIST
 "post-info"
 "post-date"
 "post-author"
+"post-snippet"
+"subscription"
+"email-box"
+
+BLOG.HTML LIST
