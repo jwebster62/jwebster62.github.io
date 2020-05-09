@@ -5,3 +5,9 @@
     --black: rgb(0, 0, 0);
     --white: rgba(255, 255, 255, 0.897);
 }
+
+body {
+    background-color: var(--main-bg);
+    color: var(--white);
+    font-size: var(--base-root);
+}
