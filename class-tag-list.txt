@@ -1,9 +1,13 @@
-INDEX.HTML LIST
+Shared List
 
 "header"
 "nav"
 "logo"
 "nav-links"
+
+
+INDEX.HTML LIST
+
 "highlight"
 "highlighted-posts"
 "recent-posts"
