@@ -3,8 +3,14 @@ Tag list w/ settings I want to change
 SHARED LIST
 
 "header"
+---background color: Green
+
 "nav"
+---Med Font
+
 "logo"
+---Big Font
+
 "nav-links"
 "footer"
 "social"
