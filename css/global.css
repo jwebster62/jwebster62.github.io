@@ -3,8 +3,9 @@
     --ratio: 1.25;
     --base-rem: 1rem;
     --size-scale-1: calc(var(--base-rem)* var(--ratio));
-    --size-scale-2: calc(var(--base-rem)* var(--ratio));
-    --size-scale-3: calc(var(--base-rem)* var(--ratio));
+    --size-scale-2: calc(var(--size-scale-1)* var(--ratio));
+    --size-scale-3: calc(var(--size-scale-2)* var(--ratio));
+    --size-scale-4: calc(var(--size-scale-3)* var(--ratio));
     --main-bg: gray;
     --green: rgb(3, 63, 3);
     --black: rgb(0, 0, 0);
@@ -23,4 +24,16 @@ h3 {
     font-weight: bold;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+h1 {
+    font-size: var(--size-scale-3);
+}
+
+h2 {
+    font: var(--size-scale-2);
+}
+
+H3 {
+    font-size: var(--size-scale-1);
 }
