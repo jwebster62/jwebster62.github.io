@@ -12,8 +12,7 @@
     flex-wrap: wrap;
 }
 
-.nav-links a:link,
-a:visited {
+.nav-links a:link {
     align-content: right;
     background-color: transparent;
     color: var(--white);
@@ -23,8 +22,12 @@ a:visited {
     text-decoration: none;
 }
 
-.nav-links a:hover,
-a:active {
+.nav-links a:hover {
+    background-color: var(--green);
+    text-decoration: underline;
+}
+
+a.current:link {
     background-color: var(--green);
     text-decoration: underline;
 }
