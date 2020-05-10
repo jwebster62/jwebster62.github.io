@@ -51,10 +51,24 @@
 
 .subscription {
     background-color: var(--black);
+    text-align: center;
 }
 
-.about-me {
-    background-color: var(--black);
+.email-box {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    max-width: 500px;
+}
+
+input[type="email"]::placeholder {
+    text-align: center;
+}
+
+input[type="email"] {
+    text-align: center;
 }
 
 @media (min-width: 720px) {
