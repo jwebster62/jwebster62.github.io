@@ -49,6 +49,10 @@
     font-size: 30px;
 }
 
+.subscription {
+    background-color: var(--black);
+}
+
 @media (min-width: 720px) {
     .highlight {
         display: grid;

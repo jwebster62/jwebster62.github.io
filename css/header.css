@@ -1,7 +1,11 @@
+.header {
+    margin-bottom: 30px;
+}
+
 .nav {
     margin-bottom: 10px;
     padding: auto;
-    background-color: var(--black);
+    background-color: rgb(71, 70, 70);
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
