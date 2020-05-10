@@ -65,10 +65,14 @@
 
 input[type="email"]::placeholder {
     text-align: center;
+    color: blue;
+    font-weight: bold;
 }
 
 input[type="email"] {
     text-align: center;
+    color: rgb(90, 38, 1);
+    font-weight: bold;
 }
 
 @media (min-width: 720px) {
