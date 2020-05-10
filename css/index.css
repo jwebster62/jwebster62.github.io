@@ -1,8 +1,7 @@
 @import url("header.css");
 @import url("footer.css");
 @import url("global.css");
-.highlighted-posts a {
-    background-color: var(--green);
+.highlighted-posts {
     width: auto;
     margin: 10px;
     text-align: center;
@@ -12,4 +11,23 @@
     align-content: center;
     width: 200px;
     height: 200px;
+}
+
+.highlighted-posts figcaption {
+    font-size: 14px;
+}
+
+@media (min-width: 720px) {
+    .highlight {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .highlight {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
