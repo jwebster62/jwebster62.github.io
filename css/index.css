@@ -1,6 +1,11 @@
 @import url("header.css");
 @import url("footer.css");
 @import url("global.css");
+.highlight {
+    position: relative;
+    background-color: tomato;
+}
+
 .highlighted-posts {
     width: auto;
     margin: 10px;
