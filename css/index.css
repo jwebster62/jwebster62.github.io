@@ -17,6 +17,26 @@
     font-size: 14px;
 }
 
+.recent-posts {
+    background-color: var(--green);
+}
+
+.recent-posts img {
+    left: 40px;
+    width: 600px;
+    height: 300px;
+}
+
+.posts {
+    margin: 40px;
+}
+
+.post-titles {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
 @media (min-width: 720px) {
     .highlight {
         display: grid;
