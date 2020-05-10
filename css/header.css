@@ -1,10 +1,43 @@
-.nav a:link,
+.nav {
+    margin-bottom: 10px;
+    padding: auto;
+    background-color: var(--black);
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links a:link,
 a:visited {
+    align-content: right;
+    background-color: transparent;
+    color: var(--white);
+    padding: 14px 25px;
+    margin: auto;
+    text-align: center;
     text-decoration: none;
 }
 
-.nav a:hover,
+.nav-links a:hover,
 a:active {
     background-color: var(--green);
     text-decoration: underline;
+}
+
+@media (min-width: 720px) {
+    .nav {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 1fr;
+        height: 50px;
+    }
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

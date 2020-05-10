@@ -2,13 +2,14 @@
 @import url("footer.css");
 @import url("global.css");
 .highlight {
+    margin-top: 30px;
     position: relative;
     background-color: var(--black);
 }
 
 .highlighted-posts {
     width: auto;
-    margin: 10px;
+    margin: 30px;
     text-align: center;
 }
 
@@ -38,10 +39,12 @@
 
 .posts {
     margin: 40px;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 .post-titles {
-    padding: 15px;
+    padding: 5px;
     font-weight: bold;
     font-size: 30px;
 }
