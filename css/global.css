@@ -10,6 +10,7 @@
     --green: rgb(3, 63, 3);
     --black: rgb(0, 0, 0);
     --white: rgba(255, 255, 255, 0.897);
+    --light-blue: rgb(31, 170, 250);
 }
 
 body {

@@ -3,7 +3,7 @@
 @import url("global.css");
 .highlight {
     position: relative;
-    background-color: tomato;
+    background-color: var(--black);
 }
 
 .highlighted-posts {
@@ -22,8 +22,12 @@
     font-size: 14px;
 }
 
+.highlighted-posts .post-info {
+    color: var(--light-blue);
+}
+
 .recent-posts {
-    background-color: var(--green);
+    background-color: var(--black);
 }
 
 .recent-posts img {
@@ -54,5 +58,6 @@
     .highlight {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
     }
 }

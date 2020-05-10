@@ -1,0 +1,10 @@
+.nav a:link,
+a:visited {
+    text-decoration: none;
+}
+
+.nav a:hover,
+a:active {
+    background-color: var(--green);
+    text-decoration: underline;
+}
