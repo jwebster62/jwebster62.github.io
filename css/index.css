@@ -53,6 +53,10 @@
     background-color: var(--black);
 }
 
+.about-me {
+    background-color: var(--black);
+}
+
 @media (min-width: 720px) {
     .highlight {
         display: grid;
