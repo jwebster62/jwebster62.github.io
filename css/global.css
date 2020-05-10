@@ -73,14 +73,20 @@ button {
     }
 }
 
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
     body {
         max-width: 990px;
     }
 }
 
-@media (min-width: 1200) {
+@media (min-width: 1200px) {
     body {
         max-width: 1150px;
+    }
+}
+
+@media (min-width: 1600px) {
+    body {
+        max-width: 1550px;
     }
 }
