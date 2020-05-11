@@ -1,3 +1,33 @@
 .about-me {
     background-color: var(--black);
 }
+
+.about-me-section {
+    padding: 30px;
+}
+
+.about-me img {
+    max-width: 500px;
+    margin-left: 30px;
+}
+
+.about-me figcaption {
+    font-style: italic;
+    font: 16px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.about-me-table,
+th,
+td {
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+    padding: 5px;
+}
