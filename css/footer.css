@@ -1,6 +1,6 @@
 .footer {
     display: grid;
-    grid-template-columns: auto 400px;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     margin-top: 30px;
     height: 30px;
