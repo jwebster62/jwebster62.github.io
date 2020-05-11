@@ -24,6 +24,7 @@
     margin: auto;
     text-align: center;
     text-decoration: none;
+    align-self: center;
 }
 
 .nav-links a:hover {

@@ -49,6 +49,20 @@
     font-size: 30px;
 }
 
+.post-date {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.post-author {
+    font-style: italic;
+}
+
+.recent-posts .post-info *:not(:last-child)::after {
+    content: "|";
+    padding-left: 10px;
+}
+
 .subscription {
     background-color: var(--black);
     text-align: center;

@@ -7,8 +7,22 @@
     background-color: rgb(71, 70, 70);
 }
 
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-left: 10px;
+}
+
 .social {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.social>a {
+    padding-left: 10px;
+    align-self: center;
 }
